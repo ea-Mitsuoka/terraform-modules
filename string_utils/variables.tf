@@ -1,6 +1,6 @@
-variable "organization_id" {
+variable "organization_name" {
   type        = string
-  description = "The raw organization_id, may include dots"
+  description = "The raw organization_name, may include dots"
 }
 
 variable "env" {
