@@ -1,6 +1,6 @@
 variable "organization_name" {
   type        = string
-  description = "The raw organization_name, may include dots"
+  description = "Organization name (e.g., example-com)"
 }
 
 variable "env" {
